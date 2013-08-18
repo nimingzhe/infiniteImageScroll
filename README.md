@@ -1,0 +1,1 @@
+该项目利用1个UISCrollView和3个UIImageView实现了图片的无限浏览。
