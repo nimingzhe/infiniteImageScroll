@@ -76,6 +76,23 @@
         rect.origin.x=1024*(d+1);
         self.rightImage.frame=rect;
     } else {
+        NSString *leftName=[NSString stringWithFormat:@"HUAHEChangJing1x.png"];
+        self.leftImage.image=[UIImage imageNamed:leftName];
+        CGRect rect=self.leftImage.frame;
+        rect.origin.x=0;
+        self.leftImage.frame=rect;
+        
+        NSString *centerName=[NSString stringWithFormat:@"HUAHEChangJing2x.png"];
+        self.centerImage.image=[UIImage imageNamed:centerName];
+        rect=self.leftImage.frame;
+        rect.origin.x=1024;
+        self.centerImage.frame=rect;
+        
+        NSString *rightName=[NSString stringWithFormat:@"HUAHEChangJing3x.png"];
+        self.rightImage.image=[UIImage imageNamed:rightName];
+        rect=self.rightImage.frame;
+        rect.origin.x=1024*2;
+        self.rightImage.frame=rect;
         
     }
    
